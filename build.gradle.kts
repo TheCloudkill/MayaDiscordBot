@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.8.20"
+    kotlin("jvm") version "1.9.21"
     application
 }
 
@@ -20,7 +20,7 @@ repositories {
 }*/
 
 dependencies {
-    implementation("com.jessecorbett:diskord-bot:4.0.0")
+    implementation("com.jessecorbett:diskord-bot:5.4.0")
 }
 
 tasks.withType<KotlinCompile> {
