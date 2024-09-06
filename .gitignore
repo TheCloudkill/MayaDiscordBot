@@ -1,6 +1,6 @@
 # Gradle files
 **/build/
-!src/**/build/
+!MayaDiscordBot/src/**/build/
 .gradle
 
 # IDEA project files
